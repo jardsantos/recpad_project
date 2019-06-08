@@ -1,11 +1,12 @@
 # Identification of Mesothelioma’s Disease using Logistic Regression - L1 regularization and Support Vector Machine
 
 ## **Authors**: 
-	Jardel Santos ([@jardsantos](https://github.com/jardsantos))
-	Venicius Ferreira ([@veniciuss](https://github.com/veniciuss))
+Jardel Santos ([@jardsantos](https://github.com/jardsantos))
+
+Venicius Ferreira ([@veniciuss](https://github.com/veniciuss))
 	
 ## **Papper**:
-	[Identication of Cancer: Mesothelioma's Disease Using Logistic Regression and Association Rule](https://thescipub.com/pdf/10.3844/ajeassp.2018.1310.1319)
+[Identication of Cancer: Mesothelioma's Disease Using Logistic Regression and Association Rule](https://thescipub.com/pdf/10.3844/ajeassp.2018.1310.1319)
 	
 ## **The Mesothelioma's Cancer**:
 
