@@ -14,7 +14,7 @@ The Mesotheliona is a rare type of cancer that affects the mesothelium. The meso
 
 Malignant mesothelioma is a rare but serious type of cancer. This cances is usually assigned to people that work on jobs that exposed them to asbestos particles. After being exposed to asbestos, it usually takes a long time for the disease to form.
 
-The asbestor particles become lodged in the pleura, . Over time, the asbestos fibers cause inflammation, scarring and eventually lead to mesothelioma cancer.
+The asbestor particles become lodged in the pleura, a serous membrane which folds back onto itself to form a two-layered membranous pleural sac over the lungs. Over time, the asbestos fibers cause inflammation, scarring and eventually lead to mesothelioma cancer.
 
 ![alt text](https://www.asbestos.com/wp-content/uploads/xlungs-3.jpg.pagespeed.ic.5dJqbXyZGz.webp)
 
