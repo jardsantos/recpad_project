@@ -32,13 +32,17 @@ In the first phase of our model we partitioned the data into training and testin
 
 [UCI Database - Mesothelioma Cancer](https://archive.ics.uci.edu/ml/machine-learning-databases/00351/Mesothelioma%20data%20set.xlsx)
 
-## **Logistic Regression**
+## ** Processing of Features**:
+
+In this step, we separated the categorical features from the numerical and discretized them, creating dummies. After that all the features (dummmies + numerical) were normalized to zero mean and unit variance.
+
+## **Logistic Regression**:
 
 Logistic regression is the appropriate when we want to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables. Also, we decided to use regularization in order to reduce generalization error without afects the training error, more than that we use regularization as a feature selection tool. The L1 regularization allow us to bring feature selection and generalizarion error reduce, so we decide to use this technique.
 
 The sklearn library has few atributes that can improve the logistic regression perfomances. Besides the L1 regularization, we use 'liblinear' as optimization solver due the fact that our dataset is small. The C value, the inverse of regularization strength, is chosen by linear seach in the range 0 to 2.
 
-### Results
+### Results:
 
 | AUC | F1-Score | Features Eliminated |
 | ------------- | ------------- | ------------- |
@@ -96,7 +100,7 @@ Dropped features: 10
 |ache on chest|albumin|asbestos exposure|blood lactic dehydrogenise (LDH)|dead or not|
 |glucose|pleural effusion|pleural lactic dehydrogenise|pleural protein|white blood|
 
-# Final Model - SVM
+# Final Model - SVM:
 
 We performed a grid search on 3 of the SVM Classifier hyperparams on the data with the features selected on Logistic Regression and it was our final model.
 1. 'C': 1.5151515151515151
