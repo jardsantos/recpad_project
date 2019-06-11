@@ -40,3 +40,65 @@ The sklearn library has few atributes that can improve the logistic regression p
 
 ### Results
 
+| AUC | F1-Score | Features Eliminated |
+| ------------- | ------------- | ------------- |
+| 0.5274| 0.1935	| 59 |
+| 0.5274| 0.1935	| 59 |
+| 0.5274| 0.1935	| 59 |
+| 0.5274| 0.1935	| 58 |
+| 0.5274| 0.1935	| 54 |
+| 0.5274| 0.1935	| 52 |
+| 0.5274| 0.1935	| 52 |
+| 0.5274| 0.1935	| 48 |
+| 0.5274| 0.1935	| 44 |
+| 0.5274| 0.1935	| 40 |
+| 0.5186| 0.1875	| 34 |
+| 0.5186| 0.1875	| 33 |
+| 0.5636| 0.3243	| 31 |
+| 0.5724| 0.3333	| 29 |
+| 0.5932| 0.3784	| 29 |
+| 0.5932| 0.3784	| 29 |
+| 0.5932| 0.3784	| 28 |
+| 0.5932| 0.3784	| 27 |
+| 0.6140| 0.4211	| 27 |
+| **0.6173**| **0.4390**	| **24** |
+| 0.6086| 0.4286	| 22 |
+| 0.5910| 0.4091	| 20 |
+| 0.5910| 0.4091	| 18 |
+| 0.5910| 0.4091	| 18 |
+| 0.5822| 0.4000	| 17 |
+| 0.5822| 0.4000	| 12 |
+| 0.5822| 0.4000	| 13 |
+| 0.5822| 0.4000	| 13 |
+| 0.5822| 0.4000	| 13 |
+| 0.5822| 0.4000	| 13 |
+
+The best C choice is 0.46 that lead us to the bold line with  AUC **0.6173**, F1-Score **0.4390** and **24** dummies features eliminated. These dummies features represents 10 features in the original dataset.
+
+![alt text](https://i.imgur.com/gyleyMi.png)
+
+
+Relevant Features remaining: 23
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|C-reactive protein (CRP)|age|alkaline phosphatise (ALP)| cell count (WBC)|city|
+|cytology|duration of asbestos exposure|duration of symptoms|dyspnoea|gender|
+|habit of cigarette|hemoglobin (HGB)|keep side|performance status|platelet count (PLT)|
+|pleural albumin|pleural glucose|pleural level of acidity (pH)|pleural thickness on tomography|sedimentation|
+|total protein|type of MM|weakness|   |   |
+
+
+Dropped features: 10
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|ache on chest|albumin|asbestos exposure|blood lactic dehydrogenise (LDH)|dead or not|
+|glucose|pleural effusion|pleural lactic dehydrogenise|pleural protein|white blood|
+
+# Final Model - SVM
+
+We peformed a grid search on 3 of the SVM Classifier hyperparams on the data with the features selected on Logistic Regression and it was our final model.
+1. 'C': 1.5151515151515151
+2. 'class_weight': None
+3. 'kernel': 'rbf'
