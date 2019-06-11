@@ -73,7 +73,7 @@ The sklearn library has few atributes that can improve the logistic regression p
 | 0.5822| 0.4000	| 13 |
 | 0.5822| 0.4000	| 13 |
 
-The best C choice is 0.46 that lead us to the bold line with  AUC **0.6173**, F1-Score **0.4390** and **24** dummies features eliminated. These dummies features represents 10 features in the original dataset.
+The best C choice is 0.46 that lead us to the bold line with  AUC **0.6173**, F1-Score **0.4390** and **24** dummies features eliminated. These dummies features represent 10 features in the original dataset.
 
 ![alt text](https://i.imgur.com/SkI34oe.png)
 
@@ -103,14 +103,14 @@ We performed a grid search on 3 of the SVM Classifier hyperparams on the data wi
 2. 'class_weight': None
 3. 'kernel': 'rbf'
 
-We also performed and cross-validation method in order to avoid overfitting and we the following results:
+We also performed a SVM with Lasso Regression using cross-validation method in order to avoid overfitting and got the following results:
 
 |Metric|  Mean |  CV 1  | CV 2  | CV 3 | CV 4|
 |---|---|---|---|---|---|
 |Accuracy|	75.00%	|	0.72839506| 0.7654321 | 0.71604938| 0.79012346|
 |ROC_AUC|	74.05%	|	0.73464912| 0.75584795| 0.69005848| 0.78143275|
 
-The results of Logistic Regression with Lasso Regression are the following:
+The results of SVM without Lasso Regression are the following:
 
 |Metric|  Mean |  CV 1  | CV 2  | CV 3 | CV 4|
 |---|---|---|---|---|---|
