@@ -75,7 +75,7 @@ The sklearn library has few atributes that can improve the logistic regression p
 
 The best C choice is 0.46 that lead us to the bold line with  AUC **0.6173**, F1-Score **0.4390** and **24** dummies features eliminated. These dummies features represents 10 features in the original dataset.
 
-![alt text](https://i.imgur.com/gyleyMi.png)
+![alt text](https://i.imgur.com/SkI34oe.png)
 
 
 Relevant Features remaining: 23
@@ -116,3 +116,5 @@ The results of Logistic Regression with Lasso Regression are the following:
 |---|---|---|---|---|---|
 |Accuracy |	74.38%	| 0.71604938 | 0.75308642| 0.71604938| 0.79012346|
 |ROC_AUC |	67.73%  |0.6622807 | 0.70394737 |0.62207602| 0.72076023|  
+
+![alt text](https://i.imgur.com/wRYQmyk.png)
