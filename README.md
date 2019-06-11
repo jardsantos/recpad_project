@@ -98,7 +98,21 @@ Dropped features: 10
 
 # Final Model - SVM
 
-We peformed a grid search on 3 of the SVM Classifier hyperparams on the data with the features selected on Logistic Regression and it was our final model.
+We performed a grid search on 3 of the SVM Classifier hyperparams on the data with the features selected on Logistic Regression and it was our final model.
 1. 'C': 1.5151515151515151
 2. 'class_weight': None
 3. 'kernel': 'rbf'
+
+We also performed and cross-validation method in order to avoid overfitting and we the following results:
+
+|Metric|  Mean |  CV 1  | CV 2  | CV 3 | CV 4|
+|---|---|---|---|---|---|
+|Accuracy|	75.00%	|	0.72839506| 0.7654321 | 0.71604938| 0.79012346|
+|ROC_AUC|	74.05%	|	0.73464912| 0.75584795| 0.69005848| 0.78143275|
+
+The results of Logistic Regression with Lasso Regression are the following:
+
+|Metric|  Mean |  CV 1  | CV 2  | CV 3 | CV 4|
+|---|---|---|---|---|---|
+|Accuracy|	75.00%	|	0.72839506| 0.7654321 | 0.71604938| 0.79012346|
+|ROC_AUC|	74.05%	|	0.73464912| 0.75584795| 0.69005848| 0.78143275|
