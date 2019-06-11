@@ -115,6 +115,13 @@ The results of SVM without Lasso Regression are the following:
 |Metric|  Mean |  CV 1  | CV 2  | CV 3 | CV 4|
 |---|---|---|---|---|---|
 |Accuracy |	74.38%	| 0.71604938 | 0.75308642| 0.71604938| 0.79012346|
-|ROC_AUC |	67.73%  |0.6622807 | 0.70394737 |0.62207602| 0.72076023|  
+|ROC_AUC |	67.73%  |0.6622807 | 0.70394737 |0.62207602| 0.72076023| 
+
+The Logistic Regresion with Lasso Regression performance:
+
+|Metric|  Mean |  CV 1  | CV 2  | CV 3 | CV 4|
+|---|---|---|---|---|---|
+|Accuracy|	72.84%	|0.71604938| 0.74074074| 0.69135802| 0.7654321 |
+|ROC_AUC| 65.61%	|0.5994152 | 0.71710526| 0.60233918| 0.70540936|
 
 ![alt text](https://i.imgur.com/wRYQmyk.png)
